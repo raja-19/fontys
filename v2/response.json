@@ -1,0 +1,514 @@
+{
+  "csrfToken": "753e4128-c3ae-48a1-8b56-9d18dba6a4c8",
+  "elements": [
+    {
+      "properties": {},
+      "key": "P163-C1-C2",
+      "functionalKey": "P163-C1-C2",
+      "name": null,
+      "children": [
+        "P163-C1-C2-F0",
+        "P163-C1-C2-F1"
+      ],
+      "displayName": null,
+      "contentStyle": "container",
+      "type": "container",
+      "styles": [
+        "Horizontal"
+      ]
+    },
+    {
+      "properties": {},
+      "key": "P163-C1-C1",
+      "functionalKey": "P163-C1-C1",
+      "name": null,
+      "children": [
+        "P163-C1-C1-F0",
+        "P163-C1-C1-F1",
+        "P163-C1-C1-F2"
+      ],
+      "displayName": null,
+      "contentStyle": "container",
+      "type": "container",
+      "styles": [
+        "Horizontal"
+      ]
+    },
+    {
+      "properties": {},
+      "key": "P163-C1-F4",
+      "functionalKey": "P163_Verzekerde-BankGiroRekeningNummer_1",
+      "name": "Verzekerde.BankGiroRekeningNummer",
+      "domain": [],
+      "messages": [],
+      "values": [],
+      "validations": [
+        {
+          "blocking": true,
+          "type": "BankAccount",
+          "message": "Dit is geen geldig rekeningnummer",
+          "parameters": {
+            "type": "bank/giro",
+            "locale": "nl_NL"
+          }
+        }
+      ],
+      "parameters": [],
+      "questionText": "Bank/giro rekeningnummer",
+      "explainText": null,
+      "dataType": "text",
+      "rejectedValue": null,
+      "readonly": false,
+      "required": false,
+      "hasDomain": false,
+      "multiValued": false,
+      "refresh": true,
+      "displayLength": -1,
+      "type": "field",
+      "styles": []
+    },
+    {
+      "properties": {},
+      "key": "P163-C1-C0",
+      "functionalKey": "P163-C1-C0",
+      "name": null,
+      "children": [
+        "P163-C1-C0-F0",
+        "P163-C1-C0-F1",
+        "P163-C1-C0-F2"
+      ],
+      "displayName": null,
+      "contentStyle": "container",
+      "type": "container",
+      "styles": [
+        "Horizontal"
+      ]
+    },
+    {
+      "properties": {},
+      "key": "P163-C1-F3",
+      "functionalKey": "P163_Verzekerde-Land_1",
+      "name": "Verzekerde.Land",
+      "domain": [
+        {
+          "displayValue": "Nederland",
+          "value": "Nederland",
+          "styles": []
+        },
+        {
+          "displayValue": "België",
+          "value": "Belgie",
+          "styles": []
+        },
+        {
+          "displayValue": "Duitsland",
+          "value": "Duitsland",
+          "styles": []
+        },
+        {
+          "displayValue": "Frankrijk",
+          "value": "Frankrijk",
+          "styles": []
+        },
+        {
+          "displayValue": "Spanje",
+          "value": "Spanje",
+          "styles": []
+        },
+        {
+          "displayValue": "Portugal",
+          "value": "Portugal",
+          "styles": []
+        },
+        {
+          "displayValue": "Turkije",
+          "value": "Turkije",
+          "styles": []
+        },
+        {
+          "displayValue": "Zwitserland",
+          "value": "Zwitserland",
+          "styles": []
+        },
+        {
+          "displayValue": "Overig",
+          "value": "Overig",
+          "styles": []
+        }
+      ],
+      "messages": [],
+      "values": [],
+      "validations": [
+        {
+          "blocking": true,
+          "type": "Required",
+          "message": "Dit veld is verplicht",
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "questionText": "Land",
+      "explainText": null,
+      "dataType": "text",
+      "rejectedValue": null,
+      "readonly": false,
+      "required": true,
+      "hasDomain": true,
+      "multiValued": false,
+      "refresh": false,
+      "displayLength": -1,
+      "type": "field",
+      "styles": []
+    },
+    {
+      "properties": {},
+      "key": "P163-C2-B0",
+      "functionalKey": "P163_Verder_1",
+      "name": "Verder",
+      "disabled": false,
+      "refresh": false,
+      "caption": "Verder",
+      "validate": true,
+      "type": "button",
+      "styles": [
+        "Primary"
+      ]
+    },
+    {
+      "properties": {},
+      "key": "P163-C1-C0-F0",
+      "functionalKey": "P163_Verzekerde-Voornaam_1",
+      "name": "Verzekerde.Voornaam",
+      "domain": [],
+      "messages": [],
+      "values": [],
+      "validations": [
+        {
+          "blocking": true,
+          "type": "Required",
+          "message": "Dit veld is verplicht",
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "questionText": "Voornaam",
+      "explainText": null,
+      "dataType": "text",
+      "rejectedValue": null,
+      "readonly": false,
+      "required": true,
+      "hasDomain": false,
+      "multiValued": false,
+      "refresh": false,
+      "displayLength": -1,
+      "type": "field",
+      "styles": []
+    },
+    {
+      "properties": {},
+      "key": "P163-C1-C1-F1",
+      "functionalKey": "P163_Verzekerde-Huisnummer_1",
+      "name": "Verzekerde.Huisnummer",
+      "domain": [],
+      "messages": [],
+      "values": [],
+      "validations": [
+        {
+          "blocking": true,
+          "type": "Required",
+          "message": "Dit veld is verplicht",
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "questionText": "Huisnummer",
+      "explainText": null,
+      "dataType": "integer",
+      "rejectedValue": null,
+      "readonly": false,
+      "required": true,
+      "hasDomain": false,
+      "multiValued": false,
+      "refresh": false,
+      "displayLength": -1,
+      "type": "field",
+      "styles": []
+    },
+    {
+      "properties": {},
+      "key": "P163-C1-C0-F1",
+      "functionalKey": "P163_Verzekerde-Achternaam_1",
+      "name": "Verzekerde.Achternaam",
+      "domain": [],
+      "messages": [],
+      "values": [],
+      "validations": [
+        {
+          "blocking": true,
+          "type": "Required",
+          "message": "Dit veld is verplicht",
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "questionText": "Achternaam",
+      "explainText": null,
+      "dataType": "text",
+      "rejectedValue": null,
+      "readonly": false,
+      "required": true,
+      "hasDomain": false,
+      "multiValued": false,
+      "refresh": false,
+      "displayLength": -1,
+      "type": "field",
+      "styles": []
+    },
+    {
+      "properties": {},
+      "key": "P163-C1-C1-F2",
+      "functionalKey": "P163_Verzekerde-HuisnummerToevoeging_1",
+      "name": "Verzekerde.HuisnummerToevoeging",
+      "domain": [],
+      "messages": [],
+      "values": [],
+      "validations": [],
+      "parameters": [],
+      "questionText": "Toevoeging",
+      "explainText": null,
+      "dataType": "text",
+      "rejectedValue": null,
+      "readonly": false,
+      "required": false,
+      "hasDomain": false,
+      "multiValued": false,
+      "refresh": false,
+      "displayLength": -1,
+      "type": "field",
+      "styles": []
+    },
+    {
+      "properties": {},
+      "key": "P163-C1-C2-F1",
+      "functionalKey": "P163_Verzekerde-Woonplaats_1",
+      "name": "Verzekerde.Woonplaats",
+      "domain": [],
+      "messages": [],
+      "values": [],
+      "validations": [
+        {
+          "blocking": true,
+          "type": "Required",
+          "message": "Dit veld is verplicht",
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "questionText": "Woonplaats",
+      "explainText": null,
+      "dataType": "text",
+      "rejectedValue": null,
+      "readonly": false,
+      "required": true,
+      "hasDomain": false,
+      "multiValued": false,
+      "refresh": false,
+      "displayLength": -1,
+      "type": "field",
+      "styles": []
+    },
+    {
+      "properties": {},
+      "key": "P163-C0-TI0",
+      "functionalKey": "P163_BerekenHoogteKinderbijslag_1",
+      "name": "BerekenHoogteKinderbijslag",
+      "nodes": [
+        {
+          "text": "Met de kinderbijslag betaalt de overheid mee aan de kosten die horen bij de opvoeding van een kind. Woont of werkt u in Nederland en heeft u kinderen jonger dan 18 jaar, dan krijgt u waarschijnlijk kinderbijslag. Hoeveel kinderbijslag u krijgt is o.a. afhankelijk van de leeftijd van uw kind. Wilt u weten hoeveel kinderbijslag u krijgt? Maak dan een proefberekening.",
+          "nodeType": "text"
+        }
+      ],
+      "plainText": "Met de kinderbijslag betaalt de overheid mee aan de kosten die horen bij de opvoeding van een kind. Woont of werkt u in Nederland en heeft u kinderen jonger dan 18 jaar, dan krijgt u waarschijnlijk kinderbijslag. Hoeveel kinderbijslag u krijgt is o.a. afhankelijk van de leeftijd van uw kind. Wilt u weten hoeveel kinderbijslag u krijgt? Maak dan een proefberekening.",
+      "type": "textitem",
+      "styles": []
+    },
+    {
+      "properties": {},
+      "key": "P163-C1-C1-F0",
+      "functionalKey": "P163_Verzekerde-Straat_1",
+      "name": "Verzekerde.Straat",
+      "domain": [],
+      "messages": [],
+      "values": [],
+      "validations": [
+        {
+          "blocking": true,
+          "type": "Required",
+          "message": "Dit veld is verplicht",
+          "parameters": {}
+        }
+      ],
+      "parameters": [],
+      "questionText": "Straat",
+      "explainText": null,
+      "dataType": "text",
+      "rejectedValue": null,
+      "readonly": false,
+      "required": true,
+      "hasDomain": false,
+      "multiValued": false,
+      "refresh": false,
+      "displayLength": -1,
+      "type": "field",
+      "styles": []
+    },
+    {
+      "properties": {},
+      "key": "P163-C1-C2-F0",
+      "functionalKey": "P163_Verzekerde-Postcode_1",
+      "name": "Verzekerde.Postcode",
+      "domain": [],
+      "messages": [],
+      "values": [],
+      "validations": [
+        {
+          "blocking": true,
+          "type": "Required",
+          "message": "Dit veld is verplicht",
+          "parameters": {}
+        },
+        {
+          "blocking": true,
+          "type": "Regexp",
+          "message": "Dit is geen geldige postcode",
+          "parameters": {
+            "posregexp": "^[1-9][0-9]{3}[\\s]?[A-Za-z]{2}$"
+          }
+        }
+      ],
+      "parameters": [],
+      "questionText": "Postcode",
+      "explainText": null,
+      "dataType": "text",
+      "rejectedValue": null,
+      "readonly": false,
+      "required": true,
+      "hasDomain": false,
+      "multiValued": false,
+      "refresh": true,
+      "displayLength": -1,
+      "type": "field",
+      "styles": []
+    },
+    {
+      "properties": {},
+      "key": "P163-C1-C0-F2",
+      "functionalKey": "P163_Verzekerde-Geslacht_1",
+      "name": "Verzekerde.Geslacht",
+      "domain": [
+        {
+          "displayValue": "Man",
+          "value": "Man",
+          "styles": []
+        },
+        {
+          "displayValue": "Vrouw",
+          "value": "Vrouw",
+          "styles": []
+        }
+      ],
+      "messages": [],
+      "values": [],
+      "validations": [],
+      "parameters": [],
+      "questionText": "Geslacht",
+      "explainText": null,
+      "dataType": "text",
+      "rejectedValue": null,
+      "readonly": false,
+      "required": false,
+      "hasDomain": true,
+      "multiValued": false,
+      "refresh": false,
+      "displayLength": -1,
+      "type": "field",
+      "styles": []
+    },
+    {
+      "properties": {},
+      "key": "P163",
+      "functionalKey": "P163_OuderGegevens_1",
+      "name": "OuderGegevens",
+      "children": [
+        "P163-C0",
+        "P163-C1",
+        "P163-C2"
+      ],
+      "displayName": "Kinderbijslag Aanvragen 04-11-2023",
+      "contentStyle": "page",
+      "messages": [],
+      "type": "page",
+      "styles": []
+    },
+    {
+      "properties": {},
+      "key": "P163-C0",
+      "functionalKey": "P163_Infobanner_1",
+      "name": "Infobanner",
+      "children": [
+        "P163-C0-TI0"
+      ],
+      "displayName": "Proefberekening kinderbijslag",
+      "contentStyle": "container",
+      "type": "container",
+      "styles": [
+        "Introduction"
+      ]
+    },
+    {
+      "properties": {},
+      "key": "P163-C1",
+      "functionalKey": "P163_OuderGegevens_2",
+      "name": "OuderGegevens",
+      "children": [
+        "P163-C1-C0",
+        "P163-C1-C1",
+        "P163-C1-C2",
+        "P163-C1-F3",
+        "P163-C1-F4"
+      ],
+      "displayName": "Jouw gegevens",
+      "contentStyle": "container",
+      "type": "container",
+      "styles": []
+    },
+    {
+      "properties": {},
+      "key": "P163-C2",
+      "functionalKey": "P163_VoettekstVerder_1",
+      "name": "VoettekstVerder",
+      "children": [
+        "P163-C2-B0"
+      ],
+      "displayName": null,
+      "contentStyle": "container",
+      "type": "container",
+      "styles": [
+        "Transparent"
+      ]
+    }
+  ],
+  "language": {
+    "patterns": {
+      "date": "dd-MM-yyyy",
+      "datetime": "dd-MM-yyyy HH:mm:ss"
+    },
+    "languageCode": "nl-NL"
+  },
+  "messages": [
+    {
+      "key": "page.validations.message",
+      "message": "Er zijn validatiemeldingen op de pagina."
+    }
+  ]
+}

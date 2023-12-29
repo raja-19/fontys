@@ -1,0 +1,1 @@
+curl POST -X https://meet-encore.blueriq.com/runtime/server/dev/api/v2/session/{sessionId}/load -b "JSESSIONID={JESSIONID}; CrowdAuthToken={CrowdAuthToken}"
