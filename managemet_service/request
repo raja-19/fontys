@@ -1,0 +1,1 @@
+curl -X POST -u {user}:{password} -H 'content-type: text/xml' -H 'soapaction: ApplyOperations' -d @request.xml https://meet-encore.blueriq.com/Studio/Server/Services/ManagementService

@@ -1,0 +1,29 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+   xmlns:ns="http://www.everest.nl/aquima/studio/ManagementService/1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:ApplyOperations>
+         <ns:repository>Kinderbijslag</ns:repository>
+         <ns:branch>Trunk</ns:branch>
+         <ns:operations>
+            <ns:Operations>
+               <ns:OperationEntry>
+                  <ns:ModuleElementOperation Type="Update" GenerateLayout="false">
+                     <ns:Project>Kinderbijslag</ns:Project>
+                     <ns:Module Name="Kinderbijslag" ModuleType="Interaction"/>
+                     <ns:OriginalKey xsi:type="ns:AttributeKey" Entity="Persoon" Name="Voornaam" ModuleElementType="Attribute"/>
+                     <ns:ModuleElement xsi:type="ns:Attribute" Entity="Persoon" Name="Voornaam" DataType="String" Askable="true">
+                         <QuestionText xmlns="">
+                               <Text Language="Nederlands">
+                                  <Value>OK</Value>
+                               </Text>
+                            </QuestionText>
+                     </ns:ModuleElement>
+                  </ns:ModuleElementOperation>
+               </ns:OperationEntry>
+            </ns:Operations>
+         </ns:operations>
+      </ns:ApplyOperations>
+   </soapenv:Body>
+</soapenv:Envelope>
